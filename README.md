@@ -17,8 +17,10 @@ Inputs:
 Output:
   The state(if any) which contains that point
   
-## Expected Behavior
+Expected Behavior
 
-  $ node HTTPServer.js &
-  $ curl -d "longitude=-77.036133&latitude=40.513799" http://localhost:8080/
-  "Pennsylvania"
+<pre>
+$ node HTTPServer.js &
+$ curl -d "longitude=-77.036133&latitude=40.513799" http://localhost:8080/
+"Pennsylvania"
+</pre>
